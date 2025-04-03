@@ -1,1 +1,1 @@
-Sitemap: https://atismer.github.io/lec/sitemap.xml
+Sitemap: https://atismer.github.io/nso2/sitemap.xml
