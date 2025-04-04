@@ -5,13 +5,14 @@ title-slide-attributes:
   data-background-image: assets/titel_la.png
 format:
   revealjs:
+    menu: false
     slide-number: true
     preview-links: auto
     logo: assets/ihs-logo.png
-    css: my-white.css
+#    css: my-white.css
+    theme: custom.scss
     footer: "Numerische Strömungsmechanik mit Optimierungsanwendung 2"
-#    width: 1600
-#    height: 1000
+    code-block-height: 400px
 include-in-header:
   - text: |
       <style>
@@ -28,6 +29,11 @@ include-in-header:
       </style>    
 bibliography: lit.bib
 csl: ieee.csl
+execute:
+  echo: true
+  output: true
+  eval: true
+jupyter: python3
 ---
 
-{{< include einfuehrung.md >}} 
+{{< include einfuehrung.qmd >}} 
