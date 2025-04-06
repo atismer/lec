@@ -4,19 +4,18 @@
 ### Kontakt und Prüfung
 
 ::: columns
-::: {.column width="75%"}
+::: {.column width="60%"}
 - Vorlesung und Übung
-  - [Alexander Tismer](https://www.ihs.uni-stuttgart.de/institut/team/Tismer/){preview-link="true" style="text-align: center"}
+  - [Alexander Tismer](https://www.ihs.uni-stuttgart.de/institut/team/Tismer/){target="_blank"}
 
 - Sprechstunde 
-  - alexander.tismer@ihs.uni-stuttgart.de
   - Termine nach Vereinbarung
 
 - BSL mündlich 20 Minuten
   - Termine nach Vereinbarung
 :::
 
-::: {.column width="25%"}
+::: {.column width="40%"}
 ![](assets/la-grid-flow.png){fig-align="right"}
 :::
 :::
@@ -24,7 +23,9 @@
 ## Organisation
 ### Konzept
 
-- Konzept der Vorlesung: "Flip-the-classroom" @www_fliptheclassroom
+- Konzept der Vorlesung: 
+  [Flip-the-classroom](https://www.fliptheclassroom.de){preview-link="true"}
+  @www_fliptheclassroom
 - Erarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause
   - Der Stoff für eine Einheit wird spätestens eine Woche vorher zur Verfügung 
     gestellt
@@ -36,18 +37,20 @@
 ## Organisation
 ### Vorgehensmöglichkeiten
 
-Zu jeder Vorlesung gibt es eine Übung: Sie können daher den Stoff auf 
-unterschiedlichen Wegen erarbeiten.
+Zu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf 
+unterschiedlichen Wegen erarbeiten:
 
-- Klassisches Vorgehen
+**Vorlesungs-basiert**
+
   1. Vorlesung durcharbeiten
   2. Bearbeitung der Übung
 
-- Erarbeitung ausgehend von der Übung
-  1. Bearbeitung der Übung bis man nicht mehr weiter kommt
+**Übungs-basiert**
+
+  1. Bearbeitung der Übung bis Sie nicht mehr weiter kommen
   2. Einen Teil der Vorlesung bearbeiten
-  3. Weitere Bearbeitung der Übung
-  4. ...
+  3. Mit Übung fortfahren
+  4. Weiter bei (2.)
 
 ## Inhalt
 ### Zeitplan
@@ -117,7 +120,7 @@ unterschiedlichen Wegen erarbeiten.
 
 **Übung**
 
-- Programmierung einzelner Verfahren
+- Programmierung ausgewählter Verfahren
 :::
 :::
 
@@ -178,51 +181,51 @@ unterschiedlichen Wegen erarbeiten.
 :::
 :::
 
-## Literatur
-
-tbd
-
 ## Vorraussetzungen
 ### Was sollten Sie mitbingen?
 - Freude an der Numerik
-  - **Ideal** Numerische Strömungsmechanik mit Optimierungsanwendung 1 gehört
+  
+  **Ideal**: Numerische Strömungsmechanik mit Optimierungsanwendung 1 gehört
 
 - Keine starken Abneigungen gegen Integrale, Matrizen, Vektoren, 
   Differentialgleichungen, ...
 
 - Spaß am Programmieren
-  - **Ideal** Kenntnisse in Python oder einer anderen objekt-orientierten 
-    Sprache und Erfahrungen mit "open-source"
 
-- Bereitschaft Rückmeldung (*Feedback*) zu geben und die Veranstaltung aktiv
-  mitzugestalten
+  **Ideal**: Kenntnisse in Python oder einer anderen objekt-orientierten 
+  Sprache und Erfahrungen mit "open-source"
+
+- Bereitschaft Rückmeldung zu geben und die Veranstaltung aktiv mitzugestalten
 
 
 ## Vorraussetzungen
 ### Was brauchen Sie?
-- Computer
-- WWW
-- Browser
+- Browser 
+- www
 
 ### Welche Hilfsmittel werden verwendet?
-- Python (Versionen 3.6, 3.7 und 3.12) ![](assets/einf-python.png){height="50"}
-- FiPy @www_fipy ![](assets/einf-jupyter.png){height="50"}
-- Jupyter @www_jupyter ![](assets/einf-fipy.png){height="50"}
+- Python (Versionen 3.6, 3.7 oder 3.12) ![](assets/einf-python.png){height="40"}
+- FiPy @www_fipy ![](assets/einf-jupyter.png){height="40"}
+- Jupyter @www_jupyter ![](assets/einf-fipy.png){height="40"}
 - Conceptboard zur Vorlesung
+
+**Optionale Zusatzliteratur:** @Moukalled_2016, @Weicker_2015, @Ferziger_2020 
+und @Versteeg_2007
 
 ## Conceptboard
 
 ![](assets/einf-concept-17.png){fig-align="center" .r-stretch}
 
-- Link zum Board finden Sie auf der Kursseite
+- [Link](https://uni-stuttgart.conceptboard.com/board/gi5d-ookt-zigt-x3p5-a38i){target="_blank"}
+  zum Board finden Sie auf der Kursseite
 - Durch einen Klick auf *Abschnitte* gelangen Sie zu den Unterlagen der 
   jeweiligen Vorlesung
 
 ## Conceptboard
 
-![](assets/einf-concept-18.png){fig-align="center" .r-stretch}
+Zum Beispiel zur Einheit *Finite-Volumen-Methode und Randbedingungen*
 
-- Zum Beispiel zur Einheit *Finite-Volumen-Methode und Randbedingungen*
+![](assets/einf-concept-18.png){fig-align="center" .r-stretch}
 
 ## Conceptboard
 
@@ -248,14 +251,15 @@ tbd
 
 ![](assets/einf-jupyter-21.png){fig-align="center" .r-stretch}
 
-- Benutzername und Passwort eingeben. 
-- Beim Hub unter www.jupyterhub.ihs.uni-stuttgart.de muss der Benutzer
-  erst angelegt werden.
-- Der Hub unter hub.bwjupyter.de wird vom KIT betrieben; dort können Sie sich
-  mit Ihrem *st123456* Account anmelden.
+- Zur Anmeldung müssen Sie den Benutzername und das Passwort eingeben. 
+- Beim Hub unter 
+  [www.jupyterhub.ihs.uni-stuttgart.de](https://www.jupyterhub.ihs.uni-stuttgart.de){target="_blank"}
+  muss der Benutzer erst angelegt werden.
+- Der Hub unter [hub.bwjupyter.de](https://hub.bwjupyter.de){target="_blank"} wird vom 
+  KIT betrieben; dort können Sie sich mit Ihrem *st123456* Account anmelden. 
 
 ## Jupyterhub
-### Startseite www.ihs.uni-stuttgart.de
+### Startseite unter www.ihs.uni-stuttgart.de
 
 ![](assets/einf-jupyter-22.png){fig-align="center" .r-stretch}
 
@@ -267,15 +271,16 @@ tbd
   gewünscht legen Sie sich privat eine Kopie an.
 
 ## Jupyterhub
-### Startseite hub.bwjupyter.de
+### Startseite unter hub.bwjupyter.de
 
 ![](assets/einf-jupyter-22.5.png){fig-align="center" .r-stretch}
 
-- Das korrekte Abbild bekommen Sie über den Link im ILIAS-Kurs 
-- Nachdem das korrekte Profil (*docker* Abbild) geladen ist, sehen Sie die 
-  Startseite
+-  Das korrekte Abbild bekommen Sie 
+   [hier](https://hub.bwjupyter.de/services/profilemanagement/add?profile=787ea89e-24c2-44c0-8434-43f3bf84f03c){target="_blank"}.
+- Nachdem das Profil geladen ist, sehen Sie die Startseite.
 - Durch einen Klick auf *Python 3* in der Rubrik *Notebook* können Sie ein 
-  neues Notebook starten
+  neues Notebook starten.
+- Ein Klick auf *Terminal* startet ein Terminal.
 
 ## Jupyterhub
 ### Das erste Notebook
@@ -283,8 +288,8 @@ tbd
 ![](assets/einf-jupyter-23.png){fig-align="center" .r-stretch}
 
 - Neben manuellem Speichern wird regelmäßig automatisch gespeichert
-- Durch Anklicken des Namens, können Sie diesen ändern.
-- Zellen werden mit Quelltext befüllt und durch `Shift` + `Enter` ausfegührt.
+- Durch Anklicken des Namens (*Untitled1*), können Sie diesen ändern.
+- Zellen werden mit Quelltext befüllt und durch `Shift` + `Enter` ausgeführt.
 
 ## Jupyterhub
 ### Der erste Code
@@ -329,6 +334,25 @@ plt.plot(xx,np.sqrt(xx), 'k-')
 ```
 
 ## Jupyterhub
+### Wie bekomme ich die Notebooks für die Übung?
+
+1. Starten Sie ein *Terminal* auf dem Hub.
+
+2. Repository mit *git* klonen.
+   
+  [hub.bwjupyter.de](https://hub.bwjupyter.de){target="_blank"}
+
+   ```bash
+   cd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git
+   ```
+   
+  [www.jupyterhub.ihs.uni-stuttgart.de](https://www.jupyterhub.ihs.uni-stuttgart.de){target="_blank"}
+
+   ```bash
+   git clone https://github.com/atismer/nso2-notebooks.git
+   ```
+
+## Jupyterhub
 ### Wie kann ich mir helfen?
 
 ::: panel-tabset
@@ -343,7 +367,7 @@ plt.plot(xx,np.sqrt(xx), 'k-')
   help(plt.plot)
   ```
 
-- Durch Drücken der Taste *Tabulator* erhalten Sie die Autovervollständigung
+- Durch Drücken der Taste *Tabulator* erhalten Sie die Autovervollständigung.
 
 ### Ausgabe
 
@@ -373,7 +397,7 @@ erzeugt einen Fehler.
 
 Versuchen Sie sich selber zu helfen. Je öfter Sie den Fehler suchen und 
 versuchen diesen zu beheben, desto besser werden Sie darin. In der Regel steht
-der Fehler ganz unten. Der obere Teil enhält meist ein *Backtrace* und listet
+der Fehler ganz unten. Der obere Teil enthält meist ein *Backtrace* und listet
 alle bis zum Fehler aufgerufenen Funktionen.
 
 ### Ausgabe
